@@ -1,0 +1,12 @@
+server:
+  port: 443
+  servlet:
+    context-path: /
+
+  ssl:
+    enabled: true
+    key-alias: selfsigned
+    key-store: classpath:keystore.jks
+    key-store-type: JKS
+    key-password: 192168Afbe!
+    key-store-password: 192168Afbe!
